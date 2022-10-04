@@ -4,18 +4,32 @@ import CustomNavbar from "../../components/CustomNavbar/CustomNavbar";
 import SectionOne from "../../components/homePageSections/SectionOne/SectionOne";
 import SectionThree from "../../components/homePageSections/SectionThree/SectionThree";
 import SectionTwo from "../../components/homePageSections/SectionTwo/SectionTwo";
+
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
 import square from "../../assets/icons/square.png";
 import circle from "../../assets/icons/circle.png";
 import squareTwo from "../../assets/icons/squareTwo.png";
 import figure from "../../assets/icons/figure.png";
-
+import { useEffect } from "react";
 const HomePage = () => {
     const { t, i18n } = useTranslation("homePage");
+    const [loaderEnabled, setLoaderEnabled] = useState(true);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY >= window.innerHeight) {
+                if (loaderEnabled) {
+                    setLoaderEnabled(false);
+                }
+            }
+        });
+    }, []);
+
     return (
         <main className={style.mainHomeContent}>
-            <SectionIntro />
+            {loaderEnabled && <SectionIntro />}
             <article className={style.sectionsContent}>
                 <CustomNavbar />
                 <SectionOne />
