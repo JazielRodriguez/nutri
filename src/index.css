@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Bariol";
+    src: url(./assets/fonts/bariol_regular-webfont.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Bariol", sans-serif !important;
+}

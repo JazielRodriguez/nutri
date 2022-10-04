@@ -1,0 +1,103 @@
+.aboutContent {
+    overflow-x: hidden;
+}
+
+.firstDecoration,
+.secondDecoration,
+.thirdDecoration {
+    position: absolute;
+}
+.firstDecoration {
+    width: 300px;
+    height: 300px;
+    right: 20px;
+    bottom: 100px;
+}
+.secondDecoration {
+    left: -50px;
+}
+.thirdDecoration {
+    right: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+.decos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.fourthDecoration {
+    height: 200px;
+}
+.fourthDecoration img {
+    height:200px;
+    animation: rotation 10s infinite linear;
+}
+.fifthDecoration {
+    display: none;
+}
+.sixDecorationContainer {
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+.sixDecorationContainer .fifthDecoration {
+    display: block;
+    position: absolute;
+    top: -250px;
+    z-index: -1222222222;
+}
+.sixDecoration {
+    position: absolute;
+    top: 800px;
+    left: -80px;
+    width: 200px;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 768px) {
+    .firstDecoration,
+    .secondDecoration,
+    .sixDecoration {
+        display: none;
+    }
+    .thirdDecoration {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .fifthDecoration {
+        display: block;
+        height: 300px;
+    }
+    .sixDecorationContainer {
+        bottom: 600px;
+    }
+    .sixDecorationContainer .fifthDecoration {
+        display: block;
+    }
+}
+@media screen and (max-width: 480px) {
+    .fourthDecoration,
+    .fifthDecoration {
+        height: 150px;
+    }
+    .fourthDecoration img {
+        height: 150px;
+    }
+    .secondDecoration .fifthDecoration {
+        display: block;
+    }
+    .sixDecorationContainer .fifthDecoration {
+        position: absolute;
+        top: -540px;
+    }
+}

@@ -1,0 +1,38 @@
+.mobileCard {
+    width: 100%;
+    margin: 8px 0;
+    /* font-family: "DM Sans", sans-serif; */
+}
+.mobileCard img {
+    width: 100%;
+}
+.mobileCardHandler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 5px;
+}
+.mobileCard div {
+    background-color: rgba(97, 128, 100, 1);
+    color: #fff;
+}
+.mobileCardInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    padding: 40px;
+}
+.mobileCardInfo img {
+    width: 100px;
+    height: 100px;
+}
+
+.productCardSeals {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

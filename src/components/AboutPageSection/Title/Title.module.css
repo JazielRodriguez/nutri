@@ -1,0 +1,51 @@
+.Title {
+    margin-top: 2%;
+    margin-bottom: -5%;
+    height: 50px;
+    left: calc(50% - 533.33px / 2 - 416.33px);
+    text-align: left;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66.6667px;
+    line-height: 97.2%;
+    /* or 65px */
+
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #618064;
+}
+.imgContent{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.cuadrado {
+    height: 200px;
+    transform: translateY(20px);
+    overflow: hidden;
+}
+.cuadrado img {
+    height: 200px;
+    animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.Title h1 {
+    text-align: left;
+    margin-left:1em;
+}
+
+@media only screen and (max-width: 900px) {
+    .Title h1{
+        text-align: center;
+    }
+}

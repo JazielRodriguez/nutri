@@ -1,0 +1,130 @@
+.sectionsContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.textCenter {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.textCenter h1 {
+    color: #262626;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finalSquare {
+    height: 100px;
+    position: relative;
+    transform: translateX(10%);
+    transform: translateY(-150px);
+    /* overflow-x: hidden; */
+}
+.finalSquare img {
+    animation: rotation 5s infinite linear;
+}
+
+.deco {
+    position: relative;
+    height: 200px;
+}
+.decoreImages {
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+.squaresContent {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.figureContent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.square {
+    height: 300px;
+}
+.squareTwo {
+    height: 300px;
+    position: absolute;
+    transform: translate(40%, -60%);
+    /* overflow: hidden; */
+}
+.squareTwo img {
+    height: 300px;
+    animation: rotation 10s infinite linear;
+}
+.circle {
+    height: 150px;
+    transform: translate(-70%, 20%);
+}
+.circle img {
+    height: 150px;
+    animation: rotation 1s infinite linear;
+}
+.figure {
+    height: 400px;
+    overflow: hidden;
+}
+.figure img {
+    height: 400px;
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media only screen and (max-width: 700px) {
+    .decoreImages {
+        position: absolute;
+        /* transform: translateY(140vh); */
+        /* z-index: -10000000000; */
+    }
+    .square {
+        height: 150px;
+    }
+    .squareTwo {
+        height: 150px;
+        position: absolute;
+        transform: translate(40%, -60%);
+    }
+    .squareTwo img {
+        height: 150px;
+    }
+    .circle {
+        height: 100px;
+        transform: translate(-70%, 20%);
+    }
+    .circle img {
+        height: 100px;
+    }
+    .figure {
+        height: 200px;
+    }
+    .figure img {
+        height: 200px;
+    }
+    .textCenter h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+}

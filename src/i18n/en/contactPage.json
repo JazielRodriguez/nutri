@@ -1,0 +1,12 @@
+{
+    "translations": {
+        "title": "Contact us",
+        "getInTouch": "Get in touch",
+        "inputName": "Full name",
+        "PlaceHolderName": "Name",
+        "inputEmail": "Email",
+        "inputMessage": "Message",
+        "PlaceHolderMessage": "Type your message...",
+        "button": "Send"
+    }
+}

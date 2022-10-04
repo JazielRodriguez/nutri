@@ -1,0 +1,44 @@
+.contactPageContainer {
+    padding: 100px 0 50px 0;
+}
+.contactPageDecoration {
+    position: relative;
+    height: 300px;
+}
+.square {
+    height: 300px;
+}
+.contactPageDecoration img {
+    height: 300px;
+    animation: rotation 10s infinite linear;
+}
+.contactPageSecondDecoration {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    height: 170px;
+}
+.contactPageSecondDecoration img {
+    height: 100%;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 480px) {
+    .contactPageDecoration {
+        height: 150px;
+    }
+    .square,
+    .square img {
+        height: 150px;
+    }
+    .contactPageSecondDecoration {
+        right: 20px;
+        height: 85px;
+    }
+}

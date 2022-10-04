@@ -1,0 +1,15 @@
+.title {
+    padding: 40px;
+}
+.title h1 {
+    display: flex;
+    font-family: 'DM Sans',sans-serif !important;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(97, 128, 100)
+    /* font-family: "DM Sans", sans-serif; */
+}
+.title p {
+    font-family: "DM Sans", sans-serif !important;
+}

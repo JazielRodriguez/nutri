@@ -1,0 +1,227 @@
+:root {
+    --opacidad-negro: 0.9;
+}
+
+.stageMain {
+    position: relative;
+    margin-top: 1%;
+    width: 100%;
+    height: 90vh !important;
+    /* margin-bottom: 5%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* filter: brightness(0.8);*/
+}
+.stageMain::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.stageContentAlbum {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    color: white;
+    margin-bottom: 4em;
+}
+
+.stageInfoAlbum:first-letter {
+    text-transform: uppercase;
+}
+.stageInfoAlbum {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.stageSlider {
+    margin: 0 auto;
+    width: 80%;
+}
+.stageInfoAlbum h2 {
+    font-size: 45px;
+    line-height: 97.2%;
+    /* or 73px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.stageInfoAlbum p {
+    font-size: 1.8rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #c8efd4;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+    border-radius: 100%;
+    opacity: 1;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0 65px 0 45px;
+    opacity: 0.8;
+    background: linear-gradient(
+        to right,
+        rgb(254, 254, 255) 15%,
+        rgba(64, 64, 64, 0.9) 0%
+    );
+}
+
+.rangeOne {
+    background: linear-gradient(
+        to right,
+        rgb(254, 254, 255) 15%,
+        rgba(64, 64, 64, 0.9) 0%
+    ) !important;
+}
+.rangeTwo {
+    background: linear-gradient(
+        to right,
+        rgb(254, 254, 255) 40%,
+        rgba(64, 64, 64, 0.9) 0%
+    ) !important;
+}
+
+.rangeThree {
+    background: linear-gradient(
+        to right,
+        rgb(254, 254, 255) 70%,
+        rgba(64, 64, 64, 0.9) 0%
+    ) !important;
+}
+
+.rangeFour {
+    background: linear-gradient(
+        to right,
+        rgb(254, 254, 255) 100%,
+        rgba(64, 64, 64, 0.9) 0%
+    ) !important;
+}
+
+.decoration {
+    position: absolute;
+    width: 100%;
+}
+.decoration .first {
+    position: absolute;
+    left: -80px;
+    z-index: -100;
+}
+.decoration .second {
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: -100;
+}
+@media only screen and (max-width: 600px) {
+    input[type="range"] {
+        background: linear-gradient(
+            to right,
+            rgb(254, 254, 255) 20%,
+            rgba(64, 64, 64, 0.9) 0%
+        );
+    }
+
+    .rangeOne {
+        background: linear-gradient(
+            to right,
+            rgb(254, 254, 255) 25%,
+            rgba(64, 64, 64, 0.9) 0%
+        ) !important;
+    }
+    .rangeTwo {
+        background: linear-gradient(
+            to right,
+            rgb(254, 254, 255) 45%,
+            rgba(64, 64, 64, 0.9) 0%
+        ) !important;
+    }
+
+    .rangeThree {
+        background: linear-gradient(
+            to right,
+            rgb(254, 254, 255) 70%,
+            rgba(64, 64, 64, 0.9) 0%
+        ) !important;
+    }
+
+    .rangeFour {
+        background: linear-gradient(
+            to right,
+            rgb(254, 254, 255) 100%,
+            rgba(64, 64, 64, 0.9) 0%
+        ) !important;
+    }
+    .decoration .first {
+        display: none;
+    }
+}
+
+.izquierda,
+.derecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+}
+.izquierda {
+    left: 20px;
+    right: 0;
+}
+@media only screen and (max-width: 415px) {
+    .stageMain {
+        height: 40vh !important;
+    }
+
+    .stageInfoAlbum h2 {
+        font-size: 35px;
+    }
+
+    .stageInfoAlbum p {
+        font-size: 1.1em;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .stageMain {
+        height: 40vh !important;
+    }
+
+    .stageInfoAlbum h2 {
+        font-size: 30px;
+    }
+
+    .stageInfoAlbum p {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "translations": {
+        "title": "Our products and services",
+        "desc": "<strong>Our ingredients</strong> comply with the highest <strong>quality</strong> standards worldwide, transmitting <strong>safety and reliability</strong> to all our customers.",
+        "fullSpectrumOil": "Our most raw and beneficial form of extract. With high concentrations of CBD and the presence of terpenes, flavonoids, and other cannabinoids such as THC, CBG, and others.<br/><br/> Our end product guarantees an effective reaction thanks to the synergistically work of the compounds, creating the entourage effect. Our full spectrum oil meets the regulatory THC complaints.",
+        "broadSpectrum": "Our broad spectrum oil has a high content of CBD, a moderate presence of CBG and other minor cannabinoids.<br/><br/> We guarantee THC levels below 0.1%, ensuring worldwide marketing. THC mitigation is reached by our highly efficient remediation processes, assuring low CBD loss rate",
+        "CBDDistillate": "Our CBD distillate is the end product of a sophisticated refinery and decarboxylation process, using solvent extraction, taking care of the quality and integrity of the product. It has the presence of terpenes and other minor cannabinoids.",
+        "CBDIsolate": "Key ingredient for the production of many pharmaceutical products, extracted in rooms with highly controlled area classification under the highest quality standards worldwide. Recognized for its purity and consistency, our isolate is prepared to supply the most quality demanding laboratories.",
+        "blendAndCustomFormulations": "NutriPharCo not only focuses on the scale, quality and consistency of our products but we are fully equipped to reliably develop, produce and deliver custom extraction solutions for our customers.",
+        "productFullSpectrumOil": "Full spectrum oil",
+        "productBroadSpectrum": "Broad Spectrum",
+        "productCBDDistillate": "CBD Distillate",
+        "productCBDIsolate": "CBD Isolate",
+        "productBlendAndCustomFormulations": "Blend And Custom Formulations"
+    }
+}

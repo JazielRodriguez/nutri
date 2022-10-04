@@ -1,0 +1,14 @@
+.logoContent {
+    height: 80px;
+}
+.logoContent img {
+    height: 100%;
+    object-fit: contain;
+}
+@media only screen and (max-width: 480px) {
+    .logoContent img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

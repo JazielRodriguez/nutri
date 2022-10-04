@@ -1,0 +1,16 @@
+{
+    "translations": {
+        "title": "Productos y servicios",
+        "desc": "<strong>Nuestros ingredientes</strong> cumplen con los más altos estándares de <strong>calidad</strong> a nivel mundial, transmitiendo <strong>seguridad y confiabilidad</strong> a todos nuestros clientes.",
+        "fullSpectrumOil": "Nuestra forma de extracto más cruda y beneficiosa. Con altas concentraciones de CBD y la presencia de terpenos, flavonoides y cannabinoides como THC, CBG y otros.<br/><br/> Nuestro producto final garantiza una reacción eficaz gracias al trabajo sinérgico de los compuestos, creando el efecto séquito. Nuestro aceite de espectro completo cumple con los reglamentos de THC.",
+        "broadSpectrum": "Nuestro aceite de amplio espectro tiene un alto contenido en CBD, una presencia moderada de CBG y otros cannabinoides menores.<br/><br/> Garantizamos niveles de THC por debajo del 0,1%, asegurando la comercialización mundial. La mitigación de THC se logra mediante nuestros procesos de remediación altamente eficientes, aseverando una baja tasa de pérdida de CBD.",
+        "CBDDistillate": "Nuestro destilado de CBD es el producto final de un sofisticado proceso de refinación y descarboxilación, mediante extracción por solventes, cuidando la calidad e integridad del producto. Tiene presencia de terpenos y otros cannabinoides menores.",
+        "CBDIsolate": "Ingrediente clave para la elaboración de muchos productos farmacéuticos, extraído en salas con clasificación de área altamente controladas bajo los más altos estándares de calidad a nivel mundial. Reconocido por su pureza y consistencia, nuestro aislado está preparado para abastecer a los laboratorios más exigentes en calidad.",
+        "blendAndCustomFormulations": "En NutriPharCo no solo nos enfocamos en la escala, calidad y consistencia de nuestros productos sino que también estamos equipados para desarrollar, producir y entregar de manera confiable soluciones de extracción personalizadas para nuestros clientes.",
+        "productFullSpectrumOil": "CBD De Espectro Completo",
+        "productBroadSpectrum": "CBD De Amplio Espectro",
+        "productCBDDistillate": "Destilado CBD",
+        "productCBDIsolate": "Aislado CBD",
+        "productBlendAndCustomFormulations": "Blends y formulaciones personalizadas"
+    }
+}

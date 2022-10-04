@@ -1,0 +1,174 @@
+.imgMobile {
+    display: none;
+}
+
+.mainResponsability {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 10%;
+}
+
+.contentResponsability {
+    width: 100%;
+    display: flex;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+.infoResponsability {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2b4a4;
+    width: 60%;
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    z-index: 9999;
+    clip-path: polygon(23% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.textResponsability:first-letter {
+    text-transform: uppercase;
+}
+
+.textResponsability {
+    margin-top: 10%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60%;
+}
+.textInfoContent p {
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.titleResponsability {
+    width: 100%;
+    color: white;
+}
+
+.titleResponsability h1 {
+    font-style: normal;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.titleResponsability h1:first-letter {
+    text-transform: uppercase;
+}
+
+.imgResponsability {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgResponsability img {
+    width: 100%;
+    height: 100%;
+}
+.decoration {
+    position: relative;
+    width: 100%;
+    height: 1px;
+}
+.decoration img {
+    position: absolute;
+    width: 200px;
+    top: -250px;
+}
+@media only screen and (max-width: 901px) {
+    .imgDesktop {
+        display: none;
+    }
+    .imgMobile {
+        display: block;
+    }
+
+    .contentResponsability {
+        width: 100%;
+        display: block;
+        float: none;
+        position: none !important;
+        height: 100%;
+    }
+
+    .imgResponsability {
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .imgResponsability img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .infoResponsability {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        position: none;
+        height: fit-content;
+        padding: 20px 0;
+        clip-path: none;
+        background-color: #a2b4a4;
+    }
+
+    .textResponsability {
+        margin-top: 0%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 95%;
+    }
+    .textResponsability p {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .textResponsability p {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .textResponsability p {
+        margin: 0;
+        font-size: 14px;
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 507px) {
+    .infoResponsability {
+        height: 70%;
+    }
+}
+@media only screen and (max-width: 473px) {
+    .infoResponsability {
+        height: 75%;
+    }
+    .textResponsability p {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 418px) {
+}
+@media only screen and (max-width: 375px) {
+    .infoResponsability {
+        height: 85%;
+    }
+}

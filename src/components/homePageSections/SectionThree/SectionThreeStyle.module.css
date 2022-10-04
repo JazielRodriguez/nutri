@@ -1,0 +1,348 @@
+.sectionThreeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 30px;
+    overflow-x: hidden;
+}
+
+.contentSection {
+    display: flex;
+    height: 240vh;
+    width: 100%;
+    top: 0;
+}
+.titlesContent {
+    width: 50%;
+    text-align: center;
+}
+.titlesContent h1 {
+    font-size: 32px;
+    color: #23601d;
+    /* font-size: 24px; */
+}
+.mobileView .titlesContent h1 {
+    margin-bottom: 20px;
+}
+.styckyContent {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    height: 100vh;
+    top: 20vh;
+    width: 100%;
+    gap: 30px;
+}
+.wrapperContent {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    height: 180vh;
+    width: 50%;
+    transform: translateX(100%);
+}
+.contentCromatografo {
+    display: flex;
+    justify-content: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+.titleContent {
+    margin-left: 20%;
+    width: 100%;
+}
+.titleContent h3 {
+    font-size: 32px;
+    color: #23601d;
+    font-weight: 700;
+}
+.bodyContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    gap: 30px;
+}
+
+.textDescriptionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.alingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 80%;
+    width: 50%;
+}
+.alingText p {
+    text-align: start;
+    font-size: 12px;
+}
+.cromatografo {
+    height: 555px;
+    width: 550px;
+    transform: translateX(-20px);
+}
+.grafictContent {
+    position: absolute;
+    height: 165px;
+    width: 260px;
+    transform: translate(100%, -10px);
+    overflow: hidden;
+    background-color: #fff;
+    border: 4px solid #000;
+    border-radius: 15px;
+    /* background-color: red; */
+}
+.cromDescrp {
+    height: 160px;
+    position: absolute
+}
+
+.alingFirstText {
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.boxText,
+.boxTextTwo,
+.boxTextThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    height: 30vh;
+    width: 60%;
+}
+.boxText p,
+.boxTextTwo p,
+.boxTextThree p {
+    line-height: 2em;
+}
+.grafic {
+    display: flex;
+    overflow: hidden;
+    height: 120px;
+    width: 224px;
+    font-size: 60px;
+    transform: translate(12.5%, 12%);
+    flex-direction: row;
+    /* animation: slider 10s linear infinite; */
+    /* position: absolute; */
+    /* background-color: blue; */
+    z-index: 32;
+}
+.graficTwo {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 300px;
+    font-size: 60px;
+    transform: translate(10%, -12%);
+    flex-direction: row;
+    animation: sliderTwo 5s linear infinite;
+    z-index: 31;
+    background-color: #fff;
+}
+.cromImgTwo {
+    width: 100%;
+}
+.cromImg {
+    width: 100%;
+}
+.mobileView {
+    display: none;
+}
+
+@keyframes sliderTwo {
+    to {
+        transform: translate(100%, -12%);
+    }
+}
+
+@keyframes slider {
+    to {
+        transform: translateX(-100%);
+    }
+}
+.boxTextResponsive {
+    font-size: 14px;
+    width: 100%;
+    align-self: flex-end;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+.boxTextTwoResponsive {
+    position: relative;
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.boxTextThreeResponsive {
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+.boxTextResponsive p,
+.boxTextTwoResponsive p,
+.boxTextThreeResponsive p {
+    line-height: 2em;
+}
+.boxResponsive {
+    width: 50%;
+}
+.square {
+    height: 300px;
+    position: absolute;
+    transform: translateX(-100%);
+}
+.square img {
+    height: 300px;
+    animation: rotation 10s infinite linear;
+}
+.squareTwo {
+    position: absolute;
+    height: 100px;
+}
+.wrapperResponsiveText {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: space-around;
+    /* height: 200vh; */
+    /* background-color: red; */
+    gap: 35px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .boxText p {
+        font-size: 14px;
+    }
+    .boxTextTwo p {
+        font-size: 14px;
+    }
+    .boxTextThree p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1060px) {
+    .contentSection {
+        display: none;
+    }
+    .mobileView {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+    /* .alignResponsiveText {
+        height: 30vh;
+        width: 100%;
+        display: flex;
+    } */
+    .grafictContent {
+        transform: translateX(90%);
+    }
+    .boxTextResponsive {
+        /* background-color:blue; */
+    }
+    .boxTextTwoResponsive {
+        /* background-color: red; */
+    }
+    .boxTextThreeResponsive {
+        /* background-color: #23601D; */
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .titleContent {
+        margin-left: 0%;
+    }
+    .sectionThreeContent {
+        width: 80%;
+    }
+    .bodyContent {
+        width: 100%;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        /* overflow: hidden; */
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .titleContent {
+        margin-left: 0%;
+    }
+    .titlesContent {
+        width: 100%;
+    }
+    .titlesContent h1 {
+        font-size: 18px;
+    }
+    .square {
+        height: 200px;
+    }
+    .titleContent h3 {
+        text-align: center;
+        font-size: 26px;
+    }
+    .contentCromatografo {
+        transform: scale(0.7) translateX(-50px);
+    }
+    .sectionThreeContent {
+        width: 100%;
+    }
+    .textDescriptionContent {
+        width: 80%;
+    }
+    /* .wrapperResponsiveText {
+        gap: 130px;
+    } */
+}
+.fade {
+    animation: opacity 1.5s ease forwards;
+}
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

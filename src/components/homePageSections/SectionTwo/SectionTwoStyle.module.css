@@ -1,0 +1,157 @@
+.contentSectionTwo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.contentImg {
+    position: sticky;
+    top: 20vh;
+    height: 100vh;
+    overflow: hidden;
+}
+.contentSalto {
+    font-size: 48px;
+    position: absolute;
+    transform: translate(-100%, 0);
+}
+.titleSectionTwo {
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    color: #23601D;
+    text-align: center;
+    transform: translateY(200%);
+}
+.contentSalto h1:nth-child(1) {
+    color: #616161;
+}
+.contentSalto h1:nth-child(2) {
+    color: #618064;
+}
+.imgToChange {
+    /* top: 42vh; */
+    /* transform: translateY(10%); */
+    object-fit: cover;
+    height: 80vh;
+    width: auto;
+    overflow: hidden;
+}
+.contentFinalTxt {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.finalTextBox {
+    height: 200px;
+    width: 35%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;
+    text-align: start;
+}
+.finalTextBox h1 {
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+}
+.finalTextBox p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.filterContent {
+    height: 100%;
+    width: 100%;
+    background-origin: rgba(35, 96, 29, 0.7);
+}
+.contentUruguay {
+    position: relative;
+    /* height: 300vh; */
+}
+.circleUruguay {
+    padding: 5px;
+    transform: translate(60px, 14px);
+    border-radius: 100%;
+    background-color: green;
+}
+.responsiveMap {
+    display: none;
+}
+.responsiveImage {
+    display: none;
+}
+.normalImageResponsive {
+    display: none;
+}
+@media only screen and (max-width: 1280px) {
+    .imgToChange {
+        transform: translateX(2%);
+    }
+}
+@media only screen and (max-width: 930px) {
+    .finalTextBox h1 {
+        font-size: 16px;
+    }
+    .finalTextBox p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .finalTextBox {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .contentSalto h1:nth-child(1) {
+        color: #616161;
+        font-size: 24px;
+    }
+    .contentSalto h1:nth-child(2) {
+        color: #618064;
+        font-size: 24px;
+    }
+    .titleSectionTwo {
+        width: 100%;
+    }
+    .normalImage {
+        display: none;
+    }
+    .normalImageResponsive {
+        display: flex;
+    }
+    .normalMap {
+        display: none;
+    }
+    .normalImage {
+        display: none;
+    }
+    .responsiveMap {
+        display: flex;
+    }
+    .imgToChange {
+        height: 50vh;
+        object-fit: contain;
+    }
+    .responsiveImage {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .finalTextBox h1 {
+        font-size: 12px;
+    }
+    .finalTextBox p {
+        font-size: 10px;
+    }
+}
