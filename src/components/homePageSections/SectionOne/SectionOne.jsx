@@ -51,9 +51,9 @@ const SectionOne = () => {
         <section
             ref={ref}
             className={style.contentSectionOne}
-            data-aos="zoom-in"
+            /* data-aos="zoom-in"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
+            data-aos-duration="1000" */
         >
             <div className={style.descriptionContent}>
                 <div className={style.titlesWrip}>
@@ -70,17 +70,17 @@ const SectionOne = () => {
                     <p><Trans>{t(`translations.gmp`)}</Trans></p>
                     <p>{t(`translations.description`)}</p>
                 </div>
-            </div>
+            </div>  
             <div className={style.imageContent}>
                 <img
                     className={style.logo}
                     src={seal}
                     alt="seal"
-                    data-aos="zoom-out"
+                    /* data-aos="zoom-out"
                     data-aos-easing="ease-in-back"
                     data-aos-delay="1100"
                     data-aos-offset="0"
-                    data-aos-duration="200"
+                    data-aos-duration="200" */
                 />
                     {/* <Link className={style.learMore} to="/">
                         <i>
