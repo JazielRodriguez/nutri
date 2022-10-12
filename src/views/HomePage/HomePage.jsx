@@ -25,6 +25,7 @@ const HomePage = () => {
                 }
             }
         });
+        localStorage.setItem("leng", "en")
     }, []);
 
     return (
